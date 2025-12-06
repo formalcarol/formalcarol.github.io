@@ -1,7 +1,59 @@
-<html>
-    <head>
-    </head>
-    <body>
-        Hello World!
-    </body>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoni 的個人網站</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .intro {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#articles">Articles</a>
+      <button onclick="alert('切換繁體中文版本（可連到 zh.html）')" style="margin-left:20px; padding:6px 12px; border-radius:6px; border:1px solid #ccc; background:white; cursor:pointer;">繁體中文</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Hui-Fang Cheng</h1>
+    <p class="intro">
+        
+    </p>
+  </div>
+</body>
 </html>
